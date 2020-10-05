@@ -8,8 +8,11 @@
 	<packaging>war</packaging>
 	<properties>
 		<m2eclipse.wtp.contextRoot>/</m2eclipse.wtp.contextRoot>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 	<build>
+	<finalName>test</finalName>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
